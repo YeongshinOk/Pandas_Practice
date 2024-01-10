@@ -22,3 +22,5 @@ file.writelines(['\na\n','b\n','1111\n','2222\n'])
 
 # (3) close
 file.close()
+
+#

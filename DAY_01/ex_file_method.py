@@ -12,7 +12,7 @@ with open(filename, mode='r', encoding='utf8') as f:
     f.seek(0)
     print(f.read(5))
     print(f'현재 위치 : {f.tell()}')
-
+# 변경사항 추가 for git 사용
 f='Good'
 
 print(f.name, f.closed)

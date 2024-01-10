@@ -16,3 +16,5 @@ with open('message_copy.txt', mode='w', encoding='utf8') as f :
 with open(filename, mode='r', encoding='utf8') as of :
     with open('message_copy.txt', mode='w', encoding='utf8') as nf:
         nf.write(of.read())
+
+#
